@@ -1,0 +1,349 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+#login-bg.container-fluid {
+    padding: 0;
+    height: 100%;
+    position: absolute;
+}
+
+/* Background image an color divs*/
+
+.bg-img {
+    min-width: 100%;
+    vertical-align: top;
+    padding: 0;
+    margin-left: 0;
+    height: 100vh !important;
+    background-color: #f98934b7;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.bg-color {
+    margin-left: -5px;
+}
+
+.bg-img {
+    background-image: url(../images/login-bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo img {
+    width: 20%;
+}
+
+#login {
+    padding-top: 10%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#register {
+    padding-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    font-size: 12px;
+}
+
+.reg-btn {
+    opacity: 0.8;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.reg-btn:hover {
+    opacity: 1;
+}
+
+.login {
+    width: 90%;
+    margin: auto;
+    /* height: 500px; */
+    background-color: #fcf2eacc;
+    padding: 15px;
+    padding-top: 30px;
+    box-shadow: 1px 3px 17px 1px #0a0b3642;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+/* .register {
+    height: 640px !important;
+} */
+
+.login h1 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #1f23a4f1;
+}
+
+.reset_heading {
+    font-size: 35px !important;
+}
+
+.login form {
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+.login .btn {
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 14px 14px;
+    background-color: #2c30b4e8;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    border: 1px solid #2c30b4e8;
+}
+
+.login .btn:hover {
+    background-color: #1f24a4;
+    border: 1px solid #fcf2eacc;
+}
+
+.form-group input {
+    font-size: 14px;
+    font-weight: normal;
+    border: none;
+    background-color: #f0f0f0;
+    color: #000 !important;
+    padding: 21px 24px;
+    border-radius: 50px;
+    transition: 0.2s;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.errMsg {
+    color: red;
+    text-align: left !important;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* Form check styles*/
+
+.form-check {
+    padding: 0;
+    text-align: left;
+}
+
+.form-check label {
+    vertical-align: top;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+    color: #202491;
+}
+
+.forgot-password {
+    text-align: right;
+    float: right;
+    font-weight: bold;
+}
+
+.forgot-password a {
+    transition: 0.3s;
+    color: #2c31b4;
+    opacity: 0.6;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.forgot-password a:hover {
+    opacity: 1;
+}
+
+#password-box {
+    position: relative;
+}
+
+#password-box2 {
+    position: relative;
+}
+
+#password_eye {
+    position: absolute;
+    top: 7px;
+    right: 16px;
+    font-size: 20px;
+    color: #202491b5;
+    cursor: pointer;
+}
+
+#password_eye2 {
+    position: absolute;
+    top: 7px;
+    right: 16px;
+    font-size: 20px;
+    color: #202491b5;
+    cursor: pointer;
+}
+
+/* Switch styles */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    display: none;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2c30b442;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2c31b4;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2c31b4;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+}
+
+.form-check {
+    align-items: center !important;
+}
+
+/* Media queries */
+
+@media (max-width: 600px) {
+    #password_eye {
+        top: 13px;
+        right: 15px;
+        font-size: 17px;
+        margin-top: 1vw;
+        display: flex;
+    }
+
+    #password_eye2 {
+        top: 13px;
+        right: 15px;
+        font-size: 17px;
+        margin-top: 1vw;
+        display: flex;
+    }
+
+    .logo img {
+        width: 32%;
+    }
+
+    .login {
+        margin: 100px auto 0;
+        width: 85%;
+        height: auto;
+        padding: 16px;
+        padding-top: 15px;
+    }
+
+    .register {
+        margin: 100px auto 0;
+        width: 85%;
+        height: auto !important;
+        padding: 16px;
+        padding-top: 15px;
+    }
+
+    .login h1 {
+        font-size: 25px;
+    }
+
+    .login .btn {
+        font-size: 12px;
+        padding: 12px 12px;
+    }
+
+    .form-group input {
+        font-size: 13px;
+        font-weight: normal;
+        border: none;
+        background-color: #f0f0f0;
+        color: #000 !important;
+        padding: 26px 30px;
+        border-radius: 50px;
+        transition: 0.2s;
+    }
+
+    .form-check label {
+        font-size: 13px;
+    }
+
+    .form-check {
+        display: block !important;
+    }
+
+    .forgot-password {
+        text-align: right;
+        float: left;
+        padding: 20px 0;
+    }
+
+    #login {
+        padding-top: 50px;
+    }
+
+    #register {
+        padding-top: 0px;
+    }
+}

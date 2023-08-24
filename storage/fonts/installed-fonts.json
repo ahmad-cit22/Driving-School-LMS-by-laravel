@@ -1,0 +1,16 @@
+{
+    "open sans": {
+        "normal": "open_sans_normal_0739e82b96fed43eada9c861d22b7bf7"
+    },
+    "great vibes": {
+        "normal": "great_vibes_normal_3276594f9c501810d6356dc2ba80292f"
+    },
+    "tangerine": {
+        "normal": "tangerine_normal_19ce16c8d386f49ccf94be2beb5587b6"
+    },
+    "poppins": {
+        "normal": "C:\\nafis-web\\laragon\\www\\pathway-main-latest\\Pathway-Driving-School\\storage\\fonts\/poppins_normal_442dffd12abdf0df26c14405d3f49bfa",
+        "500": "C:\\nafis-web\\laragon\\www\\pathway-main-latest\\Pathway-Driving-School\\storage\\fonts\/poppins_500_6a6f5e017da7e062546fd806ab3b249c",
+        "600": "poppins_600_272b14b77a21dc5827f4570eff556c8f"
+    }
+}

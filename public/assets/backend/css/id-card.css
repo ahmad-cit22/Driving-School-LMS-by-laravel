@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.container {
+    padding: 50px;
+}
+
+.container .card-front,
+.container .card-back {
+    width: 325px;
+    height: 205px;
+    border: 1px solid #2e3192;
+    /* overflow: hidden; */
+    margin: 0 auto;
+}
+
+.container .card-back {
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.card-front .logo {
+    height: 45px;
+    text-align: center;
+    padding: 10px 0 3px 0;
+}
+
+.card-front .logo img {
+    width: 100%;
+    max-width: 120px;
+}
+
+.card-front .title {
+    background-color: #2e3192;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 25px;
+    line-height: 22px;
+}
+
+.card-front .content {
+    padding: 5px 10px;
+    height: 92px;
+}
+
+.card-front .content table {
+    width: 100%;
+}
+
+.card-front .content table td {
+    padding: 0 3px;
+}
+
+.card-front .content .image img {
+    height: 75px;
+}
+
+.card-front .content .details {
+    position: relative;
+    width: 100%;
+}
+
+.card-front .content .details table tr td {
+    font-size: 12px;
+}
+
+.card-front .content .details .course {
+    background-color: #2e3192;
+    color: #fff;
+    width: 120px;
+    padding: 3px 5px;
+    line-height: 1;
+    text-align: center;
+}
+
+.card-front .content .details .course p {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.card-front .content .details .watermark {
+    position: absolute;
+    width: 70px;
+    opacity: 0.15;
+    z-index: 0;
+    top: 5px;
+    right: 20px;
+}
+
+.card-front .content .details .signature img {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    object-fit: cover;
+    z-index: 1;
+    bottom: 2px;
+    right: 0px;
+}
+
+.card-front .footer {
+    background-color: #2e3192;
+    color: #fff;
+    font-size: 11px;
+    height: 20px;
+    padding: 0 10px;
+}
+
+.card-front .footer table {
+    width: 100%;
+}
+
+.card-front .footer table tr td {
+    line-height: 15px;
+}
+
+.card-back .title {
+    text-align: center;
+}
+
+.card-back .title span {
+    background-color: #2e3192;
+    color: #fff;
+    padding: 10px 15px 6px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.card-back .content {
+    padding: 20px;
+    height: 123px;
+}
+
+.card-back .content .verification img {
+    width: 70px;
+    height: 70px;
+}
+
+.card-back .content .verification p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.card-back .content .divider {
+    padding: 10px 0 10px 10px;
+}
+
+.card-back .content .divider p {
+    width: 2px;
+    height: 100%;
+    background-color: #2e3192;
+}
+
+.card-back .content .details {
+    position: relative;
+    padding-left: 10px;
+}
+
+.card-back .content .details .watermark {
+    position: absolute;
+    width: 70px;
+    opacity: 0.15;
+    z-index: 0;
+    top: 20px;
+    right: 20px;
+}
+
+.card-back .content .details .branch-data {
+    width: 100%;
+    font-size: 12px;
+}
+
+.card-back .footer {
+    font-size: 14px;
+    padding: 4px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #2e3192;
+}
